@@ -1,0 +1,1 @@
+insert into user (username, email, PASSWORD, isAdmin) VALUES ('hans', '2@2.sd', '@P1sdms', true)

@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.content {
+    margin-left: 20vw;
+    width: 60vw;
+
+}
+
+.searchBar {
+    margin-top: 0.5em;
+    margin-left: 15vw;
+    padding-right: 40vw;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+.postbox:hover, .userBox:hover {
+    box-shadow: 8px 8px 8px grey;
+    transition: 1s;
+}
+
+.postBox, .userBox {
+    box-shadow: 5px 5px 5px lightgrey;
+    background-color: ghostwhite;
+}
+
+
+.postBox:hover, .userBox:hover {
+    box-shadow: 7px 7px 7px darkgray;
+    background-color: ghostwhite;
+}
+
+.postBox
+{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 2vw;
+}
+
+.userBox {
+    padding: 2.5vw 5.25vw 2.5vw 5.25vw;
+    float: left;
+    margin: 1vw 1vw 1vw 1vw;
+    width: 200px;
+    overflow: hidden;
+}
+
+.erorrMessage {
+    color: red;
+}
+
+textarea {
+    resize: none;
+}
+
+.normalMessage {
+    float: none;
+    width: 60%;
+    padding: 5vw 5vw 5vw 5vw;
+    margin-left: 20%;
+    margin-top: 1vw;
+    clear: both;
+}
+
+.error {
+    background-color: red;
+}
+
+.floatClear {
+    float: none;
+    clear: left;
+}
+
+/* From Bums */
